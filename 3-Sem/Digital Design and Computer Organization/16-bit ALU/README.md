@@ -1,1 +1,3 @@
-# 16-bit ALU Functions
+# 16-bit ALU Shift Operations
+
+As the name implies, a shifter shifts a binary number left or right by a specified number of positions. And a rotator rotates number in a circle such that empty spots are filled with bits shifted off the other end. Shifting and rotating data is required in several applications including arithmetic operations, variable-length coding, and bit-indexing. These are commonly found in bothdigital signal processors and general-purpose processors. Here we design and implement shift right logic, shift left logic, rotate right and rotate left using multiplexers. The 16- bit shifters and rotators, which uses four stages with 8- bit, 4- bit, 2- bit, and 1- bit shifts. These designs are optimized to share hardware for different operations.
